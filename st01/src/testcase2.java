@@ -27,4 +27,8 @@ public class testcase2 {
 		assertEquals(3, calculator.sub(6,3));
 	}
 	
+	@Test
+	public void testMul() {
+		assertEquals(6, calculator.mul(3,2));
+	}
 }
