@@ -22,5 +22,9 @@ public class testcase2 {
 	public void testSub() {
 		assertEquals(6, calculator.sub(9,3));
 	}
-
+	@Test
+	public void testSub1() {
+		assertEquals(3, calculator.sub(6,3));
+	}
+	
 }
