@@ -31,4 +31,8 @@ public class testcase2 {
 	public void testMul() {
 		assertEquals(6, calculator.mul(3,2));
 	}
+	@Test
+	public void testDiv() {
+		assertEquals(2, calculator.div(4,2));
+	}
 }
