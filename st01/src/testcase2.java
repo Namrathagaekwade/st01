@@ -35,4 +35,8 @@ public class testcase2 {
 	public void testDiv() {
 		assertEquals(2, calculator.div(4,2));
 	}
+	@Test
+	public void testDiv1() {
+		assertEquals(8, calculator.div(64,8));
+	}
 }
